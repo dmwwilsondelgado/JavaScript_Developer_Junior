@@ -16,8 +16,10 @@ parrafo = document.getElementById("parrafo");//selecionamos la etiqueta p
 document.writeln(parrafo);//imprimimos
 
 //tambien podemos selecionarlo por el Tag name
-parafo = document.getElementsByTagName("p")
+parafo = document.getElementsByTagName("p");
 console.log(parafo[0]);
 
-BotonIniciar = document.getElementById("1")
-console.log(BotonIniciar);
+BotonIniciar = document.getElementById("form1");
+console.log(BotonIniciar[0]);//aprendimos a selecionar un item y objeto cosa que no 
+//entendi en el sena 
+
