@@ -5,5 +5,19 @@
 //text: lso atributos son hijos en modo texto
 //informacion asociada a otro elemento
 //Metodo de selecion de elementos
-document.getElementById(); // por id se seleciona
-document.getElementByTagName();
+//document.getElementById(); // por id se seleciona
+//document.getElementByTagName();
+//let parrafo = "Segume@soyWilson";
+//document.writeln(parrafo);
+
+//para no hacer lo de arriba seleceionamos el getByid
+
+parrafo = document.getElementById("parrafo");//selecionamos la etiqueta p
+document.writeln(parrafo);//imprimimos
+
+//tambien podemos selecionarlo por el Tag name
+parafo = document.getElementsByTagName("p")
+console.log(parafo[0]);
+
+BotonIniciar = document.getElementById("1")
+console.log(BotonIniciar);
