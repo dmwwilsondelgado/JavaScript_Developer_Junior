@@ -23,3 +23,8 @@ BotonIniciar = document.getElementById("form1");
 console.log(BotonIniciar[0]);//aprendimos a selecionar un item y objeto cosa que no 
 //entendi en el sena 
 
+
+// selectores estos sirven para selecionar las clases
+
+selecionarParrafo = document.querySelector(".parrafo")
+console.log(selecionarParrafo);
