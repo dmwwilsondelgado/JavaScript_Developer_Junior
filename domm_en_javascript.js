@@ -27,4 +27,13 @@ console.log(BotonIniciar[0]);//aprendimos a selecionar un item y objeto cosa que
 // selectores estos sirven para selecionar las clases
 
 selecionarParrafo = document.querySelector(".parrafo")
-console.log(selecionarParrafo);
+console.log(selecionarParrafo); // esta es una forma de selecionar
+//los objetos para amas adelnate modificarlos
+
+selecionaElementoPorId = document.querySelector("#form1");
+console.log(selecionaElementoPorId);
+//de esta manera el numeral lo podemos selecionar con un # 
+//document.querySelectorAll seleciona todos los elementos especificados sean clases 
+//o id 
+
+
