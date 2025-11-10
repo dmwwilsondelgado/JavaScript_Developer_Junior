@@ -1,19 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Práctica DOM · Callbacks · Promesas · Async</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="parrafo">seguimo en @soyWilson</p>
-    <div class="parrafo">Lorem ipsum dolor sit amet.</div>
-    <form action="" id="form1">
-        <button id="1">Inicia Sesion</button>
-        <button id="2">Registrate</button>
-    </form>
-    <input type="range" class="rangoEdad">
-    <label>Rango de Edad Selecionar</label>
-    <script src="selector_de_objetos_y_etiquetas.js"></script>
+  <header>
+    <h1>Práctica JS — DOM, Callbacks, Promesas, Async</h1>
+  </header>
+  <section class="card">
+    <h2>1 Selección y atributos</h2>
+    <p>Imagen con <code>getAttribute</code> y <code>setAttribute</code>:</p>
+    <img id="demoImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="demo" />
+    <p>
+      <button id="changeSrc">Cambiar src</button>
+      <button id="showSrc">Mostrar src (console)</button>
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>2 Crear y eliminar elementos</h2>
+    <p>Añade elementos a la lista y elimínalos:</p>
+    <input id="newItem" placeholder="Texto del item" />
+    <button id="addItem">Agregar</button>
+    <ul id="items"></ul>
+  </section>
+
+  <section class="card">
+    <h2>3 Callbacks vs Promesas vs async/await</h2>
+    <p>Simulamos una operación que tarda 1.5s:</p>
+    <button id="cbBtn">Usar callback</button>
+    <button id="promiseBtn">Usar promesa</button>
+    <button id="asyncBtn">Usar async/await (fetch demo)</button>
+    <p>Nombre para la API pública (agify.io): <input id="nameInput" value="michael" /></p>
+  </section>
+
+  <section class="card">
+    <h2>4 Clase en JS</h2>
+    <p>Ejemplo simple de clase y herencia:</p>
+    <pre id="classOutput"></pre>
+  </section>
+
+  <section class="card">
+    <h2>Salida / Log</h2>
+    <div id="log" class="log"></div>
+  </section>
+  <script src="objeto_Windows.js"></script>
 </body>
-</html>

@@ -1,11 +1,9 @@
 //definir obtener y eliminar valores atributos
 
 
-const rangoEtario = document.querySelector(".rangoEdad");
+const rangoEtario = document.querySelector(".rangoEdad");//selecionamos la clase con query selector
 console.log(rangoEtario);
-rangoEtario.setAttribute("type","wilson");
-
-
+rangoEtario.setAttribute("type","color");// con set cambiamos el atributodel type 
 console.log(rangoEtario.getAttribute("type"));// obtenemos el resultado del nodo
 //console.log(rangoEtario.setAttribute("type"));
 //console.log(rangoEtario.removeAttribute("type")); // para remover el atrubito
