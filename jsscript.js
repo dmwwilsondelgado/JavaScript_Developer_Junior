@@ -22,5 +22,14 @@ nuevoboton.textContent = "Hola mundo";
 
 
 
-const setciones = document.querySelectorAll(".card");
+const setciones = document.querySelector(".card");//selecionamoss
 console.log(setciones);
+setciones.setAttribute("class","section-modificada")
+const nuevas_sectionmotos = document.querySelector(".sestion-modificada");
+
+
+
+// aca practicamos para cambiar las etiquetas con su respectivo texto con el querySelector()
+const dd = document.querySelector("h1").textContent = "Hola mundo ";
+console.log(dd);
+
