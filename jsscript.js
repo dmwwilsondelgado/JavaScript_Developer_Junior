@@ -11,5 +11,16 @@ class motos{
 let moto001 =  new motos("yamaha","mt15","blanco narajana");
 console.log(moto001.info);
 
+ ////////////////////////////////////////////////////////////
+
+//
+const boton = document.querySelector("#changeSrc");
+console.log(boton);
+boton.setAttribute("id","BotonModificar");
+const nuevoboton = document.querySelector("#BotonModificar");
+nuevoboton.textContent = "Hola mundo";
 
 
+
+const setciones = document.querySelectorAll(".card");
+console.log(setciones);
