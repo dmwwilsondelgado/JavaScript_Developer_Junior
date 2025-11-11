@@ -18,7 +18,18 @@ const boton = document.querySelector("#changeSrc");
 console.log(boton);
 boton.setAttribute("id","BotonModificar");
 const nuevoboton = document.querySelector("#BotonModificar");
-nuevoboton.textContent = "Hola mundo";
+nuevoboton.textContent = "Cambiar a Negro";
+//eveneto en el boton hola mundo usamos una funcion anonima
+let fondonegro = false; 
+nuevoboton.addEventListener("click",()=>{
+    if (!fondonegro) {
+        document.body.style.backgroundColor = "black";
+        fondonegro = true;
+        dato = confirm("estas seguro") && false;
+    }else{
+        document.body.style.backgroundColor = "white";
+    }
+})
 
 
 
@@ -38,5 +49,5 @@ const cuerpohtml = document.querySelector("body");
 console.log(cuerpohtml);
 cuerpohtml.setAttribute("class","bodyclass");
 // vamos a colocarle estilos al body con su nueva clase
-cuerpohtml.style.backgroundColor = "blue"
+cuerpohtml.style.backgroundColor = "green"
 cuerpohtml.style.textAlign = "center";
