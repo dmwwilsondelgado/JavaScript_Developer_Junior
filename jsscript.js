@@ -37,3 +37,6 @@ console.log(dd);
 const cuerpohtml = document.querySelector("body");
 console.log(cuerpohtml);
 cuerpohtml.setAttribute("class","bodyclass");
+// vamos a colocarle estilos al body con su nueva clase
+cuerpohtml.style.backgroundColor = "blue"
+cuerpohtml.style.textAlign = "center";
