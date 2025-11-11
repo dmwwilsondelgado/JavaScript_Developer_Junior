@@ -33,3 +33,7 @@ const nuevas_sectionmotos = document.querySelector(".sestion-modificada");
 const dd = document.querySelector("h1").textContent = "Hola mundo ";
 console.log(dd);
 
+
+const cuerpohtml = document.querySelector("body");
+console.log(cuerpohtml);
+cuerpohtml.setAttribute("class","bodyclass");
