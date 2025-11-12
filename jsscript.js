@@ -73,3 +73,17 @@ console.log(selecionar_input);
 selecionar_input.setAttribute("type","range")
 console.log(selecionar_input);
 
+//////////////////////////////////////////////
+
+
+const editar_p = document.querySelectorAll("p");
+editar_p.textContent = " hola ala p"
+console.log(editar_p[1]);
+//for (let i = 0; i < editar_p.length; i++) {
+//    editar_p[i].textContent = `Buenas noches a todas las ptm`;
+//}
+
+//editar_p.forEach((i)=>{
+//    i.textContent = "hola a todas las p";
+//////listo por hoy repasamos el query el se el get
+//clases y construtores
