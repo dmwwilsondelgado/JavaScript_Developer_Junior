@@ -51,3 +51,17 @@ cuerpohtml.setAttribute("class","bodyclass");
 // vamos a colocarle estilos al body con su nueva clase
 cuerpohtml.style.backgroundColor = "green"
 cuerpohtml.style.textAlign = "center";
+
+
+// de nuevo a repasar asta memorizarlo
+const nuevotitulo  = document.querySelectorAll("h2");
+nuevotitulo.forEach((titulo)=>{
+    titulo.textContent = "Hola a todos los h2"
+});
+
+
+//for (let i = 0; i < nuevotitulo.length; i++) {
+//    nuevotitulo[i].textContent = `hola a todos ${i + 1}`;
+//}
+
+//nuevotitulo.textContent = "Hola a todos los h2"
