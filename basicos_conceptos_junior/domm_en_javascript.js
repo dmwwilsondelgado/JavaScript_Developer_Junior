@@ -35,3 +35,4 @@ console.log(selecionaElementoPorId);
 //de esta manera el numeral lo podemos selecionar con un # 
 //document.querySelectorAll seleciona todos los elementos especificados sean clases 
 //o id 
+

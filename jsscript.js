@@ -65,3 +65,11 @@ nuevotitulo.forEach((titulo)=>{
 //}
 
 //nuevotitulo.textContent = "Hola a todos los h2"
+
+
+const selecionar_input = document.querySelector("#newItem");
+console.log(selecionar_input);
+
+selecionar_input.setAttribute("type","range")
+console.log(selecionar_input);
+
